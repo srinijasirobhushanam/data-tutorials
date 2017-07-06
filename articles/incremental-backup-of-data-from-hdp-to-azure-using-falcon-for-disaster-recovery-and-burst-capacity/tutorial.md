@@ -1,3 +1,10 @@
+---
+title: Incremental Backup of Data from HDP to Azure using Falcon for Disaster Recovery and Burst capacity
+tutorial-id: 340
+platform: hdp-2.4.0
+tags: [falcon, ambari]
+---
+
 # Incremental Backup of Data from HDP to Azure using Falcon for Disaster Recovery and Burst capacity
 
 ## Introduction
