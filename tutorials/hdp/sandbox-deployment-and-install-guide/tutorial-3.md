@@ -54,7 +54,7 @@ After [installing Docker For Windows](https://docs.docker.com/docker-for-windows
 
 ![Docker Settings](assets/docker-windows-settings.jpg)
 
-Select the **Advanced** tab and adjust the dedicated memory to **at least 10240GB of RAM**.
+Select the **Advanced** tab and adjust the dedicated memory to **at least 10GB of RAM**.
 
 ![Configure Docker RAM](assets/docker-windows-configure.jpg)
 
@@ -74,9 +74,9 @@ Select the **Advanced** tab and adjust the dedicated memory to **at least 12GB o
 
 **Install/Deploy/Start HDP Sandbox**
 
-- Download latest scripts [Hortonworks Data Platform (HDP) for Docker](https://hortonworks.com/downloads/#sandbox) and decompress **zip** file.
+- Download latest scripts [Hortonworks Data Platform (HDP) for Docker](https://www.cloudera.com/downloads/hortonworks-sandbox/hdp.html?utm_source=mktg-tutorial) and decompress **zip** file.
 
-[![docker-download-hdp](assets/docker-download-hdp.jpg)](https://hortonworks.com/downloads/#sandbox)
+[![docker-download-hdp](assets/docker-download-hdp.jpg)](https://www.cloudera.com/downloads/hortonworks-sandbox/hdp.html?utm_source=mktg-tutorial)
 
 In the decompressed folder, you will find shell script **docker-deploy-{version}.sh**. From the command line, Linux / Mac / Windows(Git Bash), run the script:
 
@@ -146,9 +146,9 @@ docker rmi hortonworks/sandbox-hdp:{release}
 
 **Install/Deploy/Start HDF Sandbox**
 
-- Download latest scripts [Hortonworks DataFlow (HDF) for Docker](https://hortonworks.com/downloads/#sandbox) and decompress **zip** file.
+- Download latest scripts [Hortonworks DataFlow (HDF) for Docker](https://www.cloudera.com/downloads/hortonworks-sandbox/hdf.html?utm_source=mktg-tutorial) and decompress **zip** file.
 
-[![docker-download-hdf](assets/docker-download-hdfdcoc.jpg)](https://hortonworks.com/downloads/#sandbox)
+[![docker-download-hdf](assets/docker-download-hdf.jpg)](https://www.cloudera.com/downloads/hortonworks-sandbox/hdf.html?utm_source=mktg-tutorial)
 
 In the decompressed folder, you will find shell script **docker-deploy-{version}.sh**. From the command line, Linux / Mac / Windows(Git Bash), run the script:
 
@@ -252,6 +252,7 @@ The script output will be similar to:
 
 ## Further Reading
 
+-   [Video: How to deploy sandbox using Docker](https://youtu.be/5TJMudSNn9c)
 -   [Sandbox Architecture](https://hortonworks.com/tutorial/sandbox-architecture/)
 -   Follow-up with the tutorial: [Learning the Ropes of the HDP Sandbox](https://hortonworks.com/tutorial/learning-the-ropes-of-the-hortonworks-sandbox)
 -   [Browse available tutorials](https://hortonworks.com/tutorials/)

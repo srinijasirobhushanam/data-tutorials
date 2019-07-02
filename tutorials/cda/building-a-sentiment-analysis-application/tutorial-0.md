@@ -46,7 +46,7 @@ For this project, you will play the part of a Big Data Application Developer who
 
 ### Prerequisites
 
-- Downloaded and deployed the [Hortonworks Data Platform (HDP)](https://hortonworks.com/downloads/#sandbox)
+- Downloaded and deployed the [Hortonworks Data Platform (HDP)](https://www.cloudera.com/downloads/hortonworks-sandbox/hdp.html?utm_source=mktg-tutorial) Sandbox
 - Read through [Learning the Ropes of the HDP Sandbox](https://hortonworks.com/tutorial/learning-the-ropes-of-the-hortonworks-sandbox/) to setup hostname mapping to IP address
 - If you don't have 32GB of dedicated RAM for HDP Sandbox, then refer to [Deploying Hortonworks Sandbox on Microsoft Azure](https://hortonworks.com/tutorial/sandbox-deployment-and-install-guide/section/4/)
 - Enabled Connected Data Architecture:
@@ -58,16 +58,16 @@ For this project, you will play the part of a Big Data Application Developer who
 
 The tutorial series consists of the following tutorial modules:
 
-1\. **Application Development Concepts**: You will be introduced to sentiment fundamentals: sentiment analysis, ways to perform the data analysis and the various use cases.
+1\. **[Application Development Concepts](https://hortonworks.com/tutorial/building-a-sentiment-analysis-application/section/1/)** You will be introduced to sentiment fundamentals: sentiment analysis, ways to perform the data analysis and the various use cases.
 
-2\. **Setting up the Development Environment**: You will create a Twitter Application in Twitter's Developer Portal for access to KEYS and TOKENS. You will then write a shell code and perform Ambari REST API Calls to setup a development environment.
+2\. **[Setting up the Development Environment](https://hortonworks.com/tutorial/building-a-sentiment-analysis-application/section/2/)** You will create a Twitter Application in Twitter's Developer Portal for access to KEYS and TOKENS. You will then write a shell code and perform Ambari REST API Calls to setup a development environment.
 
-3\. **Acquiring Twitter Data**: You will build a NiFi Dataflow to ingest Twitter data, preprocess it and store it into the Kafka Topic "tweets". The second NiFi Dataflow you will build, ingests the enriched sentiment tweet data from Kafka topic "tweetsSentiment" and streams the content of the flowfile to HBase.
+3\. **[Acquiring Twitter Data](https://hortonworks.com/tutorial/building-a-sentiment-analysis-application/section/3/)** You will build a NiFi Dataflow to ingest Twitter data, preprocess it and store it into the Kafka Topic "tweets". The second NiFi Dataflow you will build, ingests the enriched sentiment tweet data from Kafka topic "tweetsSentiment" and streams the content of the flowfile to HBase.
 
-4\. **Cleaning the Raw Twitter Data**: You will create a Zeppelin notebook and use Zeppelin's Spark Interpreter to clean the raw twitter data in preparation to create the sentiment classification model.
+4\. **[Cleaning the Raw Twitter Data](https://hortonworks.com/tutorial/building-a-sentiment-analysis-application/section/4/)** You will create a Zeppelin notebook and use Zeppelin's Spark Interpreter to clean the raw twitter data in preparation to create the sentiment classification model.
 
-5\. **Building a Sentiment Classification Model**: You will create a Zeppelin notebook and use Zeppelin's Spark Interpreter to build a sentiment classification model that classifies tweets as Happy or Sad and exports the model to HDFS.
+5\. **[Building a Sentiment Classification Model](https://hortonworks.com/tutorial/building-a-sentiment-analysis-application/section/5/)** You will create a Zeppelin notebook and use Zeppelin's Spark Interpreter to build a sentiment classification model that classifies tweets as Happy or Sad and exports the model to HDFS.
 
-6\. **Deploying a Sentiment Classification Model**: You will create a Scala IntelliJ project in which you develop a Spark Structured Streaming application that streams the data from Kafka topic "tweets" on HDP, processes the tweet JSON data by adding sentiment and streaming the data into Kafka topic "tweetsSentiment" on HDF.
+6\. **[Deploying a Sentiment Classification Model](https://hortonworks.com/tutorial/building-a-sentiment-analysis-application/section/6/)** You will create a Scala IntelliJ project in which you develop a Spark Structured Streaming application that streams the data from Kafka topic "tweets" on HDP, processes the tweet JSON data by adding sentiment and streaming the data into Kafka topic "tweetsSentiment" on HDF.
 
-7\. **Visualizing Sentiment Scores**: You will use Zeppelin's JDBC Hive Interpreter to perform SQL queries against the noSQL HBase table "tweets_sentiment" for visual insight into tweet sentiment score.
+7\. **[Visualizing Sentiment Scores](https://hortonworks.com/tutorial/building-a-sentiment-analysis-application/section/7/)** You will use Zeppelin's JDBC Hive Interpreter to perform SQL queries against the noSQL HBase table "tweets_sentiment" for visual insight into tweet sentiment score.

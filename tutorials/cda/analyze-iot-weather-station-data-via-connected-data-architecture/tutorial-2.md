@@ -188,7 +188,7 @@ SSH into the Raspberry Pi using Adafruit's Pi Finder **Terminal** button.
 
 **Figure 15:** Time Zone Calibrated
 
-### Step 2: Configure Bridged Adapter Network
+### Step 2: Configure Bridged Adapter Network For VirtuaBox
 
 ### VirtualBox User
 
@@ -414,7 +414,7 @@ Recommended Hardware:
 
 ### Download Raspbian OS Image
 
-3\. Download [Rasbpian Jessie Lite OS Image](https://www.raspberrypi.org/downloads/raspbian/) onto your host machine.
+3\. Download [Raspbian Jessie Lite OS Image](https://www.raspberrypi.org/downloads/raspbian/) onto your host machine.
 
 4\. Unzip the OS Image.
 

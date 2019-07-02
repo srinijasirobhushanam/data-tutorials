@@ -7,10 +7,10 @@ persona: Data Analyst
 source: Hortonworks
 use case: Data Visualization
 technology: Apache Superset
-release: hdp-3.0.1
+release: hdp-3.0.1, hdf 3.2
 environment: Sandbox
 product: CDA
-series: CDA > Data Analyst > Superset
+series: CDA > Data Engineers & Scientists > Data Science Applications
 ---
 
 # Superset in Trucking IoT
@@ -27,7 +27,7 @@ Superset is a Business Intelligence tool packaged with many features for designi
 
 ## Prerequisites
 
-- Downloaded and deployed the [Hortonworks Data Platform (HDP)](https://hortonworks.com/downloads/#sandbox) Sandbox
+- Downloaded and deployed the [Hortonworks Data Platform (HDP)](https://www.cloudera.com/downloads/hortonworks-sandbox/hdp.html?utm_source=mktg-tutorial) Sandbox
 - If you don't have 32GB of dedicated RAM for HDP Sandbox, then refer to [Deploying Hortonworks Sandbox on Microsoft Azure](https://hortonworks.com/tutorial/sandbox-deployment-and-install-guide/section/4/)
 - Enabled Connected Data Architecture:
   - [Enable CDA for VirtualBox](https://hortonworks.com/tutorial/sandbox-deployment-and-install-guide/section/1/#enable-connected-data-architecture-cda---advanced-topic)
@@ -36,9 +36,9 @@ Superset is a Business Intelligence tool packaged with many features for designi
 
 ## Outline
 
-- **Superset Concepts** - Covers the fundamental concepts of Data Visualization and Superset.
-- **Setting up the Development Environment** - Setup hostname mapping to IP address, setup Ambari admin password, turn on services needed for Superset and turn on Superset.
-- **Visualizing Trucking Data** - Shows how to visualize data using Superset.
+- **[Superset Concepts](https://hortonworks.com/tutorial/superset-in-trucking-iot/section/1/)** - Covers the fundamental concepts of Data Visualization and Superset.
+- **[Setting up the Development Environment](https://hortonworks.com/tutorial/superset-in-trucking-iot/section/2/)** - Setup hostname mapping to IP address, setup Ambari admin password, turn on services needed for Superset and turn on Superset.
+- **[Visualizing Trucking Data](https://hortonworks.com/tutorial/superset-in-trucking-iot/section/3/)** - Shows how to visualize data using Superset.
 
 ## Tutorial Reference Application
 
