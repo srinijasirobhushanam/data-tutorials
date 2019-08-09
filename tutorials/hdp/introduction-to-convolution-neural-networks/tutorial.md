@@ -1,3 +1,17 @@
+---
+title: Introduction to Convolution Neural Networks
+author: sandbox-team
+tutorial-id:
+experience: Beginner
+persona: Data Scientist & Analyst
+source: Cloudera
+use case: Predictive
+technology: CDSW
+release: cdp-3.0.1
+environment: N/A
+product: CDP
+series: CDP > Hadoop for Data Scientists & Analysts > Introduction to Convolution Neural Networks
+---
 # Introduction to Convolution Neural Networks
 ### Introduction
 
