@@ -1,3 +1,17 @@
+---
+title: Building Convolution Neural Network Model
+author: sandbox-team
+tutorial-id:
+experience: Beginner
+persona: Data Scientist & Analyst
+source: Cloudera
+use case: Predictive
+technology: CDSW
+release: cdp-3.0.1
+environment: N/A
+product: CDP
+series: CDP > Hadoop for Data Scientists & Analysts > Building Convolution Neural Network Model
+---
 # Building Convolution Neural Network Model
 ### Introduction
 The main objective of this tutorial is to get hands on experience in building a CNN model. This tutorial explains how to fine tune the parameters to improve the model and also use transfer learning to achieve state of the art performance. Finally you will understand the concept of model interpretability through which CNN makes decisions. To get started with this tutorial you should have some background knowledge of python and neural network concepts to understand better.
